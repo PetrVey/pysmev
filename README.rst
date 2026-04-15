@@ -2,7 +2,7 @@
 PySMEV
 =================
 
-PySMEV contains a set of methods to apply the Simplified Metastatistical Extreme Value analysis as presented in:
+PySMEV contains a set of methods to apply the Simplified Metastatistical Extreme Value analysis
 
 Presented in:
 
@@ -18,6 +18,17 @@ Presented in:
 | 
 | The original code of SMEV written in Matlab is available from:
 | https://doi.org/10.5281/zenodo.3971557
+
+
+| **pySMEV repository also includes:**
+| *2) A test for the hypothesis: block maxima are samples from a parent distribution with Weibull tail*
+| The test is described in: 
+|  Marra F, W Amponsah, SM Papalexiou, 2023. 
+| Non-asymptotic Weibull tails explain the statistics of extreme daily precipitation. 
+| Adv. Water Resour., 173, 104388, 
+| https://doi.org/10.1016/j.advwatres.2023.104388
+| Matlab source code:
+| https://zenodo.org/records/7234708
 
 
 Installation
@@ -42,14 +53,6 @@ Usage
 -----
 
 For a complete example of how to use the class, please see the files in the `example` folder:
-
-| Example for 60-min data `example_smev_1h_obs.py` 
-| In this case we use data coming from https://doi.org/10.5281/zenodo.7142384
-| Dallan, E. (2022). How well does a convection-permitting climate model represent the reverse orographic effect of extreme hourly precipitation? - Observed precipitation data
-| 
-| Example for 5-min data `example_smev_5min_obs.py` 
-| In this case we use data coming from https://doi.org/10.5281/zenodo.6088847
-| Dallan, E., & Marra, F. (2022). Enhanced summer convection explains observed trends in extreme subdaily precipitation in the Eastern Italian Alps - Codes & data (Versione v1).
 
 
 Development
@@ -113,8 +116,12 @@ Thank you for helping us improve!
 
 Credits
 -------
+Author: Luigi Cesarini (luigi.cesarini@iusspavia.it)
+
+Maintainer: Petr Vohnicky (PhD student at the University of Padova; petr.vohnicky@unipd.it)
 
 | We wish to thank Yaniv Goldschmidt from Hebrew University yanivfry@gmail.com
+
 | 
 | PySMEV wouldn't be at this stage without the pyTENAX community https://github.com/PetrVey/pyTENAX
 | Many thanks to:
